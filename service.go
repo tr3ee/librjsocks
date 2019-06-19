@@ -119,7 +119,6 @@ func (s *Service) Run() error {
 			default:
 			}
 		}
-		fmt.Println(e.String())
 		if err != nil {
 			return err
 		}
